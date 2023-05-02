@@ -1,0 +1,127 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.mainPageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .mainPageContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.loading {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.categories {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.categories h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.productContainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productInfo {
+  margin-left: 2rem;
+  max-width: 50%;
+}
+
+.productInfo h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.productInfo p {
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.productPrice {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.productQuantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.productQuantity label {
+  font-size: 1.5rem;
+  color: #666;
+  margin-right: 1rem;
+}
+
+.productQuantity input {
+  font-size: 1.5rem;
+  color: #666;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 50px;
+  text-align: center;
+}
+
+.addToCart {
+  background-color: #ffc107;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.addToCart:hover {
+  background-color: #ff9800;
+}
+
+@media (max-width: 768px) {
+  .productInfo {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,156 @@
+.cart-item-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .cart-item-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.sellerDiv {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.sellerText {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.seller {
+  margin-right: 10px;
+}
+
+.arrowIcon {
+  margin-left: auto;
+  color: #999;
+}
+
+.shipment {
+  font-weight: bold;
+  color: green;
+  margin: 10px 0;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .product {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+}
+
+.product-details img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .product-details img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.product-name {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.brand {
+  font-weight: normal;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    margin-left: auto;
+  }
+}
+
+.counter {
+  background-color: #f2f2f2;
+  border: none;
+  color: #999;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.counter:hover {
+  background-color: #e2e2e2;
+}
+
+.counter:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.amount {
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.amount:focus {
+  outline: none;
+}
+
+.price-container {
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .price-container {
+    margin-left: 20px;
+  }
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.trash {
+  margin-left: 10px;
+  color: #999;
+  cursor: pointer;
+}
+
+.trash:hover {
+  color: #ff0000;
+}

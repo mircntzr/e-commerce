@@ -1,0 +1,38 @@
+.sidebar-container {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.title {
+  color: #333;
+}
+
+.content {
+  color: #666;
+}
+
+.content:hover,
+.brandName:hover {
+  color: #f37b1a;
+}
+
+.icon {
+  fill: #f37b1a;
+}
+
+.right-icon {
+  color: #f37b1a;
+}
+
+.brandDiv {
+  color: #4378ea;
+}
+
+.brand-icon {
+  fill: #4378ea;
+}
+
+.followers {
+  color: #999;
+}

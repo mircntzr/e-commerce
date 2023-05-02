@@ -1,0 +1,107 @@
+.footerContainer {
+  display: flex;
+  background-color: #e6e6e6;
+  justify-content: space-between;
+  position: relative;
+  padding: 5rem;
+  border-top: 3px solid gray;
+  color: #000;
+}
+
+.footerSection {
+  margin: 2rem;
+}
+
+.footerTitle {
+  cursor: pointer;
+  color: #000;
+  transition: all 0.3s;
+}
+.footerTitle:hover {
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+li {
+  padding: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.appLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.appLinks a {
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+.appLinks a:first-child {
+  margin-right: 1rem;
+}
+
+.subscribeForm {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: row;
+
+  width: 100%;
+  padding-right: 4rem;
+  border-radius: 5px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribeForm input {
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #ffcc00;
+  outline: none;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+}
+
+.subscribeForm button {
+  width: 5rem;
+  background: #333;
+  color: #ffcc00;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+  }
+
+  .footerSection {
+    margin: 0 0 1rem 0;
+  }
+
+  .appLinks {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subscribeForm {
+    flex-direction: column;
+    width: 100%;
+  }
+}
