@@ -1,5 +1,5 @@
 .container {
-  min-width: 1500px;
+  max-width: 1900px;
   min-height: 800px;
   margin: 0 auto;
   color: #000;
@@ -9,15 +9,28 @@
   justify-content: center;
   background-color: #8f8c8c;
 }
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
 
 .cart-page-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .cart-page-container {
+    padding-top: 50px;
+  }
 }
 
 .carts {
-  flex: 2;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .carts h1 {
@@ -26,12 +39,21 @@
   font-size: 28px;
   margin-bottom: 20px;
 }
-
-.carts-container {
-  display: grid;
-  gap: 20px;
+@media only screen and (max-width: 768px) {
+  .carts {
+    width: 100%;
+  }
 }
-
+.carts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .carts-container {
+    width: 100%;
+  }
+}
 .cartLink {
   flex: 2;
   display: flex;
@@ -79,14 +101,19 @@
 }
 
 .total-amount {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+@media only screen and (max-width: 768px) {
+  .total-amount {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
 .order-details {
+  width: 100%;
   margin-bottom: 20px;
-  padding: 50px;
 }
 
 .order-details h1 {
@@ -105,6 +132,11 @@
 }
 
 .all-calculated {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
@@ -112,6 +144,9 @@
 }
 
 .coupon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -133,6 +168,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-left: 10px;
 }
 
 .discountBtn:hover {

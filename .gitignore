@@ -19,3 +19,5 @@ jboss/server/minimal/work/**/*
 *.DEPLOYED
 .vercel
 node_modules
+
+.vercel
