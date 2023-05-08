@@ -16,9 +16,6 @@ const ProductContainer = ({ product, loading }) => {
   const dispatch = useDispatch();
 
   const handleFavouritesClick = () => {
-    // `favouritesHandler` action creator'a `product` objesini doğrudan gönderirseniz,
-    // bu obje bir payload olarak `action` objesi içinde yer alır ve `action.payload`
-    // şeklinde kullanılabilir.
     dispatch(favouritesHandler({ product }));
   };
 
