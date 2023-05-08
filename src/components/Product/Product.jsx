@@ -38,7 +38,10 @@ const Product = ({ data }) => {
         />
       </div>
       <div className={styles.contentBox}>
-        <h3>{title}</h3>
+        <h3>
+          {" "}
+          {brand} {title}
+        </h3>
         <p className={styles.description}>{description}</p>
         <p className={styles.price}>${price}</p>
         <div

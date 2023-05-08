@@ -8,16 +8,27 @@ const Categories = () => {
   const { filter, setFilter } = useContext(FilterContext);
 
   const categories = [
-    "smartphones",
-    "laptops",
-    "fragrances",
-    "skincare",
-    "groceries",
-    "mens-shoes",
+    "cup",
+    "bag",
+    "clock",
+    "dress",
+    "women accessory",
+    "glasses",
   ];
 
   const handleCategoryClick = (category) => {
+    // Eğer seçilen kategori zaten filtredeki kategoriyle aynıysa,
+    // filtre değerini değiştirmiyoruz.
+    if (category === filter) {
+      return;
+    }
+
+    // Seçilen kategori farklıysa, filtre değerini güncelliyoruz.
     setFilter(category);
+  };
+
+  const handleClearFilter = () => {
+    setFilter(null);
   };
 
   return (
@@ -33,6 +44,13 @@ const Categories = () => {
           </li>
         ))}
       </ul>
+      <div className={styles.filterBtnDiv}>
+        {filter && (
+          <button className={styles.filterBtn} onClick={handleClearFilter}>
+            Clear Filter
+          </button>
+        )}
+      </div>
     </div>
   );
 };

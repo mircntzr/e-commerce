@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./ProductContainer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookmark, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../redux/cart";
 import { favouritesHandler } from "../../redux/favourites";
@@ -14,6 +14,13 @@ const ProductContainer = ({ product, loading }) => {
   const isFavourite = favourites.filter((fav) => fav.id === product?.id);
 
   const dispatch = useDispatch();
+
+  const handleFavouritesClick = () => {
+    // `favouritesHandler` action creator'a `product` objesini doğrudan gönderirseniz,
+    // bu obje bir payload olarak `action` objesi içinde yer alır ve `action.payload`
+    // şeklinde kullanılabilir.
+    dispatch(favouritesHandler({ product }));
+  };
 
   return (
     <section className={styles["product-container"]}>
@@ -43,7 +50,7 @@ const ProductContainer = ({ product, loading }) => {
         <div className={styles["image-container"]}>
           {product?.images.map((src, idx) => (
             <img
-              src={src.length > 0 && src}
+              src={src || ""}
               className={styles["mini-photo"]}
               alt="mini-product"
               key={idx}
@@ -64,7 +71,7 @@ const ProductContainer = ({ product, loading }) => {
                 ? `${styles["fav-btn"]} ${styles["selected"]}`
                 : styles["fav-btn"]
             }
-            onClick={() => dispatch(favouritesHandler({ product }))}
+            onClick={handleFavouritesClick}
           >
             <FontAwesomeIcon className={styles["heart-icon"]} icon={faHeart} />{" "}
           </button>
