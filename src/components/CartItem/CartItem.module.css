@@ -5,12 +5,25 @@
   flex-direction: column;
   border-bottom: 1px solid #ccc;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 480px) {
   .cart-item-container {
-    flex-direction: row;
+    padding: 10px;
+  }
+
+  .product {
+    flex-direction: column;
     align-items: center;
+  }
+
+  .product-details {
+    margin-bottom: 10px;
+  }
+
+  .price-container {
+    margin-top: 10px;
   }
 }
 
@@ -93,6 +106,7 @@
 
 @media (min-width: 768px) {
   .buttons {
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 0;

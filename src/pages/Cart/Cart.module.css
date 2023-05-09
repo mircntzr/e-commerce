@@ -9,21 +9,21 @@
   justify-content: center;
   background-color: #8f8c8c;
 }
+
 @media only screen and (max-width: 768px) {
   .container {
     max-width: 100%;
-    padding: 0 20px;
+    padding: 0;
   }
 }
 
-.cart-page-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media only screen and (max-width: 768px) {
-  .cart-page-container {
-    padding-top: 50px;
+@media only screen and (max-width: 480px) {
+  .carts h1 {
+    font-size: 24px;
+  }
+
+  .start-btn {
+    font-size: 16px;
   }
 }
 
