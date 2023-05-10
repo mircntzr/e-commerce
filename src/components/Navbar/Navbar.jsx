@@ -25,7 +25,7 @@ const Navbar = (props) => {
     <nav className={styles.navbar}>
       <div className={styles.imgBox}>
         <h1 className={styles.brand} onClick={() => navigate("/")}>
-          VINTAGGY
+          <img src="https://i.hizliresim.com/k9djcr8.png" alt="Logo" />
         </h1>
       </div>
       <div className={styles.inputBox}>
