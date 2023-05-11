@@ -8,6 +8,11 @@ import "./App.css";
 import { CategoryProvider } from "./context/CategoryContext";
 import { FilterContextProvider } from "./context/FilterContext";
 import Checkout from "./components/Checkout/Checkout";
+import Property from "./components/Property/Property";
+import Disclamier from "./components/Disclamier/Disclamier";
+import Privacy from "./components/Privacy/Privacy";
+import Cansellation from "./components/Cancellation/Cansellation";
+import Terms from "./components/Terms/Terms";
 function App() {
   return (
     <div className="App">
@@ -21,6 +26,20 @@ function App() {
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/auth" element={<Authentication />} />
               <Route path="checkout" element={<Checkout />} />
+              <Route
+                path="/intellectual-property-and-licensing-agreement"
+                element={<Property />}
+              />
+              <Route
+                path="/legal-disclaimer-and-liability-disclaimer"
+                element={<Disclamier />}
+              />
+              <Route path="/privacy-policy" element={<Privacy />} />
+              <Route
+                path="/return-and-cancellation-policy"
+                element={<Cansellation />}
+              />
+              <Route path="/terms" element={<Terms />} />
             </Routes>
           </CategoryProvider>
         </FilterContextProvider>

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Categories.module.css";
-import { useCategory } from "../../context/CategoryContext";
 import { useContext } from "react";
 import { FilterContext } from "../../context/FilterContext";
 
@@ -17,13 +16,10 @@ const Categories = () => {
   ];
 
   const handleCategoryClick = (category) => {
-    // Eğer seçilen kategori zaten filtredeki kategoriyle aynıysa,
-    // filtre değerini değiştirmiyoruz.
     if (category === filter) {
       return;
     }
 
-    // Seçilen kategori farklıysa, filtre değerini güncelliyoruz.
     setFilter(category);
   };
 

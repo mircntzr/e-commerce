@@ -5,7 +5,7 @@ import {
   faMagnifyingGlass,
   faBasketShopping,
 } from "@fortawesome/free-solid-svg-icons";
-import { faStar, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
