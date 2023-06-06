@@ -9,6 +9,7 @@ const Footer = () => {
         <ul>
           <li>Careers</li>
           <li>Contact Us</li>
+          <li>+1 (315) 277-7161</li>
         </ul>
       </div>
       <div className={styles.footerSection}>
