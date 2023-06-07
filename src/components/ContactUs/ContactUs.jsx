@@ -11,7 +11,7 @@ function ContactUs() {
         <h2>Contact Us</h2>
         <div className={styles.ContactUsContainer}>
           <p>+1 (315) 277-7161</p>
-          <p>contact@berfka.com</p>
+          <p>contact@vintaggy.com</p>
           <p>https://www.instagram.com/vintaggycom/</p>
 
           <p>Contact Me</p>
