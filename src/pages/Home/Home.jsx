@@ -8,7 +8,7 @@ const Home = () => {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    document.title = "Vintaggy";
+    document.title = "vintaggy";
   }, []);
 
   return (

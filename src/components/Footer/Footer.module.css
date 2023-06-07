@@ -3,13 +3,13 @@
   background-color: #e6e6e6;
   justify-content: space-between;
   position: relative;
-  padding: 5rem;
+  padding: 2rem 5rem;
   border-top: 3px solid gray;
   color: #000;
 }
 
 .footerSection {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .footerTitle {
@@ -39,9 +39,11 @@ a {
 .appLinks {
   display: flex;
   justify-content: space-between;
-  width: 15rem;
-  padding: 1rem 2rem;
+  width: 100%;
+  max-width: 20rem;
+  padding: 1rem;
   border-radius: 5px;
+  margin: 1rem 0;
 }
 
 .appLinks a {
@@ -55,16 +57,11 @@ a {
 
 .subscribeForm {
   display: flex;
-  justify-content: space-between;
-
-  flex-direction: row;
-
+  flex-direction: column;
   width: 100%;
-  padding-right: 4rem;
+  max-width: 20rem;
   border-radius: 5px;
-
-  justify-content: center;
-  align-items: center;
+  margin: 1rem 0;
 }
 
 .subscribeForm input {
@@ -75,10 +72,11 @@ a {
   width: 100%;
   font-size: 1.1rem;
   padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
 }
 
 .subscribeForm button {
-  width: 5rem;
+  width: 100%;
   background: #333;
   color: #ffcc00;
   border: none;
@@ -86,9 +84,11 @@ a {
   border-radius: 3px;
   cursor: pointer;
 }
+
 @media (max-width: 768px) {
   .footerContainer {
     flex-direction: column;
+    padding: 2rem;
   }
 
   .footerSection {
@@ -96,12 +96,32 @@ a {
   }
 
   .appLinks {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    margin: 1rem 0;
+    max-width: none;
   }
 
   .subscribeForm {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    max-width: none;
+    margin: 1rem 0;
   }
+
+  .subscribeForm input {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+}
+
+.contactUs {
+  cursor: pointer;
+}
+
+.SocialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }

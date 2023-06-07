@@ -13,6 +13,7 @@ import Disclamier from "./components/Disclamier/Disclamier";
 import Privacy from "./components/Privacy/Privacy";
 import Cansellation from "./components/Cancellation/Cansellation";
 import Terms from "./components/Terms/Terms";
+import ContactUs from "./components/ContactUs/ContactUs";
 function App() {
   return (
     <div className="App">
@@ -40,6 +41,7 @@ function App() {
                 element={<Cansellation />}
               />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/contactus" element={<ContactUs />} />
             </Routes>
           </CategoryProvider>
         </FilterContextProvider>

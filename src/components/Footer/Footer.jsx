@@ -1,14 +1,26 @@
 import React from "react";
 import styles from "./Footer.module.css";
-
+import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerSection}>
         <span className={styles.footerTitle}>About Us</span>
         <ul>
           <li>Careers</li>
-          <li>Contact Us</li>
+          <li
+            onClick={() => navigate("/contactus")}
+            className={styles.contactUs}
+          >
+            Contact Us
+          </li>
           <li>+1 (315) 277-7161</li>
         </ul>
       </div>
@@ -49,6 +61,11 @@ const Footer = () => {
         <span className={styles.footerTitle}>Subscribe</span>
         <div className={styles.subscribeForm}>
           <input type="email" placeholder="Enter your email address" />
+        </div>
+        <div className={styles.SocialIcons}>
+          <FontAwesomeIcon icon={faFacebook} size="lg" />
+          <FontAwesomeIcon icon={faInstagram} size="lg" />
+          <FontAwesomeIcon icon={faTwitter} size="lg" />
         </div>
       </div>
     </footer>
