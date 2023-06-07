@@ -1,5 +1,6 @@
 .footerContainer {
   display: flex;
+
   background-color: #e6e6e6;
   justify-content: space-between;
   position: relative;

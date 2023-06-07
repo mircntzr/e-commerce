@@ -64,7 +64,13 @@ const Footer = () => {
         </div>
         <div className={styles.SocialIcons}>
           <FontAwesomeIcon icon={faFacebook} size="lg" />
-          <FontAwesomeIcon icon={faInstagram} size="lg" />
+          <a
+            href="https://www.instagram.com/vintaggycom/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
           <FontAwesomeIcon icon={faTwitter} size="lg" />
         </div>
       </div>
