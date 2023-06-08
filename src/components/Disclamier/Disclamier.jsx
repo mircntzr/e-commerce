@@ -10,7 +10,6 @@ function Disclamier() {
       <div className={style.Property}>
         <div className={style.PropertyContainer}>
           <h1>Legal Disclaimer and Liability Disclaimer</h1>
-          <span>Legal Disclaimer and Liability Disclaimer</span>
           <div>
             <ul>
               <li>

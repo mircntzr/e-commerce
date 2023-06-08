@@ -10,7 +10,6 @@ function Terms() {
       <div className={style.Property}>
         <div className={style.PropertyContainer}>
           <h1>Terms</h1>
-          <span>Terms</span>
           <div>
             This Intellectual Property and Licensing Agreement (“Agreement”) is
             entered into by and between [vintaggy] (“we”, “us”, “our”) and the
