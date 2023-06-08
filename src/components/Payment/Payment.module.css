@@ -1,0 +1,95 @@
+.payment {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.payment-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="date"]::placeholder {
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.submit-payment {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+}
+
+.submit-payment:hover {
+  background-color: #3367d6;
+}
+
+@media (max-width: 768px) {
+  .payment-container {
+    padding: 0 2rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"] {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+
+  .submit-payment {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.5rem;
+  }
+}

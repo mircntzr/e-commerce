@@ -4,8 +4,11 @@ import countriesData from "./countries.json";
 import { useSelector } from "react-redux";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {
+  const navigate = useNavigate();
+
   const cart = useSelector((state) => state.cart);
   useEffect(() => {
     document.title = "Checkout";
@@ -230,7 +233,12 @@ const Checkout = () => {
               I have read and agree to the website terms and conditions
             </label>
           </div>
-          <button className={styles["place-order"]}>Place Order</button>
+          <button
+            className={styles["place-order"]}
+            onClick={() => navigate("/payment", { state: { grandTotal } })}
+          >
+            Place Order
+          </button>
         </div>
       </div>
       <Footer />

@@ -14,6 +14,7 @@ import Privacy from "./components/Privacy/Privacy";
 import Cansellation from "./components/Cancellation/Cansellation";
 import Terms from "./components/Terms/Terms";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Payment from "./components/Payment/Payment";
 function App() {
   return (
     <div className="App">
@@ -42,6 +43,7 @@ function App() {
               />
               <Route path="/terms" element={<Terms />} />
               <Route path="/contactus" element={<ContactUs />} />
+              <Route path="/payment" element={<Payment />} />
             </Routes>
           </CategoryProvider>
         </FilterContextProvider>

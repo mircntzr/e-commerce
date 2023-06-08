@@ -58,7 +58,6 @@ function Cansellation() {
                 design, you must place a new order.
               </li>
             </ul>
-            <button className={style.ContactUsBtn}>Submit</button>
           </div>
         </div>
       </div>

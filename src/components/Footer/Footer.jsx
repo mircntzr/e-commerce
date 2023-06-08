@@ -18,7 +18,7 @@ const Footer = () => {
 
   const handleSubmit = () => {
     setEmail("");
-    alert("Başarıyla bültenimize kaydoldunuz!");
+    alert("You have successfully subscribed to our newsletter!");
   };
   return (
     <footer className={styles.footerContainer}>
@@ -47,35 +47,8 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>Follow Us</h3>
         <ul>
-          <li>
-            <a href="#">Twitter</a>
-          </li>
-          <li>
-            <a href="#">Facebook</a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/vintaggycom/" target="blank">
-              Instagram
-            </a>
-          </li>
+          <li>And get Free Shipping on all your orders!</li>
         </ul>
-      </div>
-
-      <div className={styles.footerSection}>
-        <span className={styles.footerTitle}>
-          Subscribe{" "}
-          <button className={styles.FooterBtn} onClick={handleSubmit}>
-            Submit
-          </button>{" "}
-        </span>
-        <div className={styles.subscribeForm}>
-          <input
-            type="email"
-            placeholder="Enter your email address"
-            value={email}
-            onChange={handleEmailChange}
-          />
-        </div>
         <div className={styles.SocialIcons}>
           <FontAwesomeIcon icon={faFacebook} size="lg" />
           <a
@@ -86,6 +59,28 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           <FontAwesomeIcon icon={faTwitter} size="lg" />
+        </div>
+      </div>
+
+      <div className={styles.footerSection}>
+        <span className={styles.footerTitle}>
+          Subscribe{" "}
+          <button className={styles.FooterBtn} onClick={handleSubmit}>
+            Submit
+          </button>{" "}
+        </span>
+        <ul>
+          <li>
+            Be the first to know about our new arrivals and exclusive offers.
+          </li>
+        </ul>
+        <div className={styles.subscribeForm}>
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            value={email}
+            onChange={handleEmailChange}
+          />
         </div>
       </div>
     </footer>
