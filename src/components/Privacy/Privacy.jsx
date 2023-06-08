@@ -10,7 +10,6 @@ function Privacy() {
       <div className={style.Property}>
         <div className={style.PropertyContainer}>
           <h1>Privacy Policy</h1>
-          <span>Privacy Policy</span>
           <div>
             <ul>
               <li>
