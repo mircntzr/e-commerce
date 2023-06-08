@@ -30,7 +30,6 @@ li {
   margin: 1rem 0;
 }
 
-/* Responsive styles */
 @media (min-width: 576px) {
   .PropertyContainer {
     max-width: 540px;

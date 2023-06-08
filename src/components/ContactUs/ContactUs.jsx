@@ -23,6 +23,7 @@ function ContactUs() {
 
             <textarea placeholder="Message *" cols="30" rows="10"></textarea>
           </div>
+          <button className={styles.ContactUsBtn}>Submit</button>
         </div>
       </div>
       <Footer />

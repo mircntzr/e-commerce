@@ -12,24 +12,25 @@ const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerSection}>
-        <span className={styles.footerTitle}>About Us</span>
+        <span className={styles.footerTitle}>COMPANY</span>
+
         <ul>
-          <li>Careers</li>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop</li>
           <li
             onClick={() => navigate("/contactus")}
             className={styles.contactUs}
           >
             Contact Us
           </li>
-          <li>+1 (315) 277-7161</li>
         </ul>
       </div>
       <div className={styles.footerSection}>
         <span className={styles.footerTitle}>Help</span>
         <ul>
+          <li>Order Tracking</li>
           <li>FAQ</li>
-          <li>Returns and Exchanges</li>
-          <li>Shipping Information</li>
         </ul>
       </div>
       <div className={styles.footerSection}>
@@ -46,19 +47,11 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+
       <div className={styles.footerSection}>
-        <span className={styles.footerTitle}>Download the App</span>
-        <div className={styles.appLinks}>
-          <a href="#">
-            <i className="fab fa-apple"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-google-play"></i>
-          </a>
-        </div>
-      </div>
-      <div className={styles.footerSection}>
-        <span className={styles.footerTitle}>Subscribe</span>
+        <span className={styles.footerTitle}>
+          Subscribe <button>Submit</button>{" "}
+        </span>
         <div className={styles.subscribeForm}>
           <input type="email" placeholder="Enter your email address" />
         </div>
