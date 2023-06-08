@@ -35,7 +35,7 @@ const Footer = () => {
           >
             Contact Us
           </li>
-          <li>Website Owner</li>
+          <li onClick={() => navigate("/website-owner")}>Website Owner</li>
         </ul>
       </div>
       <div className={styles.footerSection}>

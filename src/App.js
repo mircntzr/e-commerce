@@ -15,6 +15,7 @@ import Cansellation from "./components/Cancellation/Cansellation";
 import Terms from "./components/Terms/Terms";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Payment from "./components/Payment/Payment";
+import WebsiteOwner from "./components/WebsiteOwner/WebsiteOwner";
 function App() {
   return (
     <div className="App">
@@ -44,6 +45,7 @@ function App() {
               <Route path="/terms" element={<Terms />} />
               <Route path="/contactus" element={<ContactUs />} />
               <Route path="/payment" element={<Payment />} />
+              <Route path="/website-owner" element={<WebsiteOwner />} />
             </Routes>
           </CategoryProvider>
         </FilterContextProvider>
