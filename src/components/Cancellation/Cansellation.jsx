@@ -12,7 +12,7 @@ function Cansellation() {
           <h1>Return and Cancellation Policy</h1>
           <div>
             This Intellectual Property and Licensing Agreement (“Agreement”) is
-            entered into by and between [Berfka] (“we”, “us”, “our”) and the
+            entered into by and between [vintaggy] (“we”, “us”, “our”) and the
             user (“user”, “you”, “customer”) of our website and services.
             <ul>
               <li>
