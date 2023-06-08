@@ -10,7 +10,6 @@ function Property() {
       <div className={style.Property}>
         <div className={style.PropertyContainer}>
           <h1>Intellectual Property and Licensing Agreement</h1>
-          <span>Intellectual Property and Licensing Agreement</span>
           <div>
             This Intellectual Property and Licensing Agreement (“Agreement”) is
             entered into by and between [vintaggy] (“we”, “us”, “our”) and the

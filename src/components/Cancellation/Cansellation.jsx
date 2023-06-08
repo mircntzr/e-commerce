@@ -10,7 +10,6 @@ function Cansellation() {
       <div className={style.Property}>
         <div className={style.PropertyContainer}>
           <h1>Return and Cancellation Policy</h1>
-          <span>Return and Cancellation Policy</span>
           <div>
             This Intellectual Property and Licensing Agreement (“Agreement”) is
             entered into by and between [Berfka] (“we”, “us”, “our”) and the
