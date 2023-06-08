@@ -435,7 +435,7 @@
       "brand": "Original ",
       "title": "Clock",
       "description": "Clock",
-      "price": "102",
+      "price": "56",
       "discountPercentage": 12.96,
       "rating": 4.69,
       "stock": 94,
@@ -447,6 +447,229 @@
         "https://cdn.dsmcdn.com/ty217/product/media/images/20211030/19/160747197/231339912/4/4_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty218/product/media/images/20211030/19/160747197/231339912/5/5_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty217/product/media/images/20211030/19/160747197/231339912/6/6_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": "Apple Iphone 13 Phone Case",
+      "price": "15",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty883/product/media/images/20230515/11/349434153/938343743/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty883/product/media/images/20230515/11/349434153/938343743/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/128/192/ty883/product/media/images/20230515/11/349434153/938343743/2/2_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": "Samsung Galaxy S20Phone Case",
+      "price": "9",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty898/product/media/images/20230522/15/355374813/638046412/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty898/product/media/images/20230522/15/355374813/638046412/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty897/product/media/images/20230522/15/355374841/638060052/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty898/product/media/images/20230522/15/355371383/638097849/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty897/product/media/images/20230522/15/355374254/638026167/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty899/product/media/images/20230522/15/355371416/638012764/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Samsung Galaxy A51 Phone Case",
+      "price": "9",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty806/product/media/images/20230328/16/314351714/638016417/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty806/product/media/images/20230328/16/314351714/638016417/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty803/product/media/images/20230328/16/314352443/638036963/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty801/product/media/images/20230328/16/314352099/638035112/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty806/product/media/images/20230328/16/314353849/638059791/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty801/product/media/images/20230328/16/314354668/638043285/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Iphone 12 and 12 Pro Phone Case",
+      "price": "15",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty732/product/media/images/20230215/18/281621737/572868258/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty732/product/media/images/20230215/18/281621737/572868258/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty732/product/media/images/20230215/18/281620938/373302059/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty732/product/media/images/20230215/18/281620341/152857478/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty734/product/media/images/20230215/18/281621263/152853555/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty734/product/media/images/20230215/18/281620352/183643610/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty734/product/media/images/20230215/18/281620139/152855704/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Iphone 11 Phone Case",
+      "price": "11",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty329/product/media/images/20220209/21/47760745/384013443/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty329/product/media/images/20220209/21/47760745/384013443/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty329/product/media/images/20220209/22/47761561/384014532/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/1200/1800/ty888/product/media/images/20230518/10/351654871/384015307/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty328/product/media/images/20220209/21/47760392/384012613/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Iphone 11 Phone Case",
+      "price": "12",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty449/product/media/images/20220607/17/122620049/190785423/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty449/product/media/images/20220607/17/122620049/190785423/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty448/product/media/images/20220607/17/122620049/190785423/2/2_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty447/product/media/images/20220607/17/122620049/190785423/4/4_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Iphone 13 Phone Case",
+      "price": "13",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty557/product/media/images/20221008/17/189385307/591698019/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty557/product/media/images/20221008/17/189385307/591698019/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty563/product/media/images/20221013/19/193027419/595790080/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty562/product/media/images/20221013/19/193024970/595785876/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty561/product/media/images/20221013/19/193021190/595780792/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": "  Xiaomi Redmi Note 11 Pro",
+      "price": "9",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty535/product/media/images/20220919/18/177057338/501007357/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty535/product/media/images/20220919/18/177057338/501007357/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty531/product/media/images/20220913/8/174738910/501007357/2/2_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty533/product/media/images/20220913/8/174738910/501007357/3/3_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty536/product/media/images/20220919/19/177103512/501010159/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty533/product/media/images/20220915/9/175365350/501012285/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty531/product/media/images/20220915/9/175365243/501010280/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty532/product/media/images/20220915/9/175365272/501010755/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 42,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Iphone 13 Phone Case",
+      "price": "9",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty345/product/media/images/20220301/13/60599009/400327597/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty345/product/media/images/20220301/13/60599009/400327597/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty345/product/media/images/20220301/13/60599009/400327597/2/2_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty345/product/media/images/20220301/13/60599009/400327597/3/3_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty345/product/media/images/20220301/13/60599195/400327938/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty346/product/media/images/20220301/13/60599224/400327971/1/1_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": " Samsung Galaxy S23 Phone Case",
+      "price": "10",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty713/product/media/images/20230202/11/272028211/847362514/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty713/product/media/images/20230202/11/272028211/847362514/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty711/product/media/images/20230202/12/272059038/847400784/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty713/product/media/images/20230202/11/272028211/847362514/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty711/product/media/images/20230202/11/272031528/847367519/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty712/product/media/images/20230202/11/272031774/847367859/2/2_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": "  Xiaomi Redmi Note 12 Phone Case",
+      "price": "10",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty872/product/media/images/20230506/22/341945779/929937894/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty872/product/media/images/20230506/22/341945779/929937894/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty870/product/media/images/20230506/22/341945779/929937894/3/3_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty870/product/media/images/20230506/22/341942125/929930643/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty871/product/media/images/20230506/22/341945779/929937894/6/6_org_zoom.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "brand": "Original ",
+      "title": "Phone Case",
+      "description": "  vivo Y16 Phone Case",
+      "price": "10",
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "phone case",
+      "thumbnail": "https://cdn.dsmcdn.com/ty818/product/media/images/20230409/14/320840445/906411084/1/1_org_zoom.jpg",
+      "images": [
+        "https://cdn.dsmcdn.com/ty818/product/media/images/20230409/14/320840445/906411084/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty817/product/media/images/20230409/14/320840445/906411084/2/2_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty817/product/media/images/20230409/14/320841220/906412397/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty817/product/media/images/20230409/14/320837650/906403120/1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty817/product/media/images/20230409/14/320841012/906412239/1/1_org_zoom.jpg"
       ]
     }
   ]

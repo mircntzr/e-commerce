@@ -13,6 +13,7 @@ const Categories = () => {
     "dress",
     "women accessory",
     "glasses",
+    "phone case",
   ];
 
   const handleCategoryClick = (category) => {
