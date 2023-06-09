@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Register.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons";
+
 const Register = () => {
   const [gender, setGender] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -13,7 +14,7 @@ const Register = () => {
   return (
     <>
       <form onSubmit={submitHandler}>
-        <label>E-Posta</label>
+        <label>Email</label>
         <div className={styles["input-box"]}>
           <input type="text" />
         </div>
@@ -27,14 +28,15 @@ const Register = () => {
           />
         </div>
         <div className={styles.control}>
-          Şifreniz en az 7 karakter olmalı,harf ve rakam içermelidir.
+          Your password must contain at least 7 characters, including letters
+          and numbers.
         </div>
-        <div className={styles["gender-text"]}>Cinsiyet(Opsiyonel)</div>
+        <div className={styles["gender-text"]}>Gender (Optional)</div>
         <div className={styles["gender-buttons"]}>
           <button
-            onClick={() => setGender("Kadın")}
+            onClick={() => setGender("Female")}
             className={
-              gender === "Kadın"
+              gender === "Female"
                 ? `${styles["gender-item"]} ${styles.selected}`
                 : styles["gender-item"]
             }
@@ -43,40 +45,39 @@ const Register = () => {
           </button>
           <button
             className={
-              gender === "Erkek"
+              gender === "Male"
                 ? `${styles["gender-item"]} ${styles.selected}`
                 : styles["gender-item"]
             }
-            onClick={() => setGender("Erkek")}
+            onClick={() => setGender("Male")}
           >
             Man
           </button>
         </div>
-        <button className={styles["submit-btn"]}>Üye Ol</button>
+        <button className={styles["submit-btn"]}>Register</button>
         <div style={{ fontSize: "12px", paddingTop: "5px", color: "gray" }}>
-          Üye Ol'a basarak{" "}
+          By clicking Register, I agree to the{" "}
           <span style={{ textDecoration: "underline", cursor: "pointer" }}>
-            Üyelik Koşullarını
+            Membership Terms
           </span>{" "}
-          kabul ediyorum.
+          .
         </div>
         <div className={styles["checkbox-container"]}>
           <div className={styles["checkbox-item"]}>
             <input type="checkbox" style={{ width: "50px", height: "50px" }} />
             <span>
-              Kampanyalardan haberdar olabilmem için kişisel verilerimin
-              işlenmesini ve tarafıma elektronik ileti gönderilmesini kabul
-              ediyorum.
+              I accept the processing of my personal data and the sending of
+              electronic messages to be informed about the campaigns.
             </span>
           </div>
           <div className={styles["checkbox-item"]}>
             <input type="checkbox" />
             <span>
-              Kişisel verilerimin işlenmesine yönelik{" "}
+              I have read and understood the{" "}
               <span style={{ textDecoration: "underline" }}>
-                aydınlatma metnini
+                Disclosure Statement
               </span>{" "}
-              okudum ve anladım.
+              regarding the processing of my personal data.
             </span>
           </div>
         </div>
@@ -90,7 +91,9 @@ const Register = () => {
           />
           <div className={styles["social-text"]}>
             <span className={styles.brand}>Facebook</span>
-            <span className={styles["login-text"]}>ile üye ol.</span>
+            <span className={styles["login-text"]}>
+              Register with Facebook.
+            </span>
           </div>
         </div>
         <div className={styles["social-btn"]}>
@@ -101,7 +104,7 @@ const Register = () => {
           />
           <div className={styles["social-text"]}>
             <span className={styles.brand}>Google</span>
-            <span className={styles["login-text"]}>ile üye ol.</span>
+            <span className={styles["login-text"]}>Register with Google.</span>
           </div>
         </div>
       </div>

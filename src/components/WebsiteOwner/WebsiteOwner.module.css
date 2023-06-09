@@ -1,0 +1,23 @@
+.ownerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50vh;
+}
+
+.ownerContent {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ownerContent {
+    max-width: 768px;
+  }
+}
