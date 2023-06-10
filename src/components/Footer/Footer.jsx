@@ -8,6 +8,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
+
 const Footer = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -20,15 +21,26 @@ const Footer = () => {
     setEmail("");
     alert("You have successfully subscribed to our newsletter!");
   };
+
+  const handleHomeClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
+  };
+
+  const handleShopClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>COMPANY</h3>
 
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Shop</li>
+          <li onClick={handleHomeClick}>Home</li>
+          <li onClick={() => navigate("/about-us")}>About Us</li>
+          <li onClick={handleShopClick}>Shop</li>
           <li
             onClick={() => navigate("/contactus")}
             className={styles.contactUs}
@@ -41,8 +53,8 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>Help</h3>
         <ul>
-          <li>Order Tracking</li>
-          <li>FAQ</li>
+          <li onClick={() => navigate("/order-tracking")}>Order Tracking</li>
+          <li onClick={() => navigate("/faq")}>FAQ</li>
         </ul>
       </div>
       <div className={styles.footerSection}>

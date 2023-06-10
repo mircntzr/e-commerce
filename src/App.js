@@ -16,6 +16,9 @@ import Terms from "./components/Terms/Terms";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Payment from "./components/Payment/Payment";
 import WebsiteOwner from "./components/WebsiteOwner/WebsiteOwner";
+import AboutUs from "./components/AboutUs/AboutUs";
+import OrderTracking from "./components/OrderTracking/OrderTracking";
+import Faq from "./components/FAQ/Faq";
 function App() {
   return (
     <div className="App">
@@ -46,6 +49,9 @@ function App() {
               <Route path="/contactus" element={<ContactUs />} />
               <Route path="/payment" element={<Payment />} />
               <Route path="/website-owner" element={<WebsiteOwner />} />
+              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/order-tracking" element={<OrderTracking />} />
+              <Route path="/faq" element={<Faq />} />
             </Routes>
           </CategoryProvider>
         </FilterContextProvider>

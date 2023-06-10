@@ -1,0 +1,52 @@
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  min-height: calc(100vh - 120px); /* Navbar ve Footer yüksekliği çıkarılır */
+}
+
+.faqContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faqContent h2 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.faqContent p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+/* Mobile first responsive design */
+@media only screen and (min-width: 576px) {
+  .faqContent {
+    padding: 4rem;
+  }
+
+  .faqContent h2 {
+    font-size: 3rem;
+  }
+
+  .faqContent p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .faqContent {
+    padding: 6rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .faqContent {
+    padding: 8rem;
+  }
+}

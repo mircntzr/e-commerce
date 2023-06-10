@@ -1,0 +1,52 @@
+.AboutUsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.AboutUsContainer h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.AboutUsContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.AboutUsContainer p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .AboutUsContainer {
+    padding: 4rem;
+  }
+
+  .AboutUsContainer h1 {
+    font-size: 3rem;
+  }
+
+  .AboutUsContainer h3 {
+    font-size: 2rem;
+  }
+
+  .AboutUsContainer p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .AboutUsContainer {
+    padding: 6rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .AboutUsContainer {
+    padding: 8rem;
+  }
+}
