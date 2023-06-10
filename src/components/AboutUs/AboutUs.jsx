@@ -10,8 +10,10 @@ const AboutUs = () => {
       <div className={style.AboutUsContainer}>
         <div className={style.AboutUsContent}>
           <h1>About Us</h1>
-          <h3>Our Story</h3>
+
           <p>
+            <strong>Our Story</strong>
+            <br />
             EST. 2017 Our Story At vintaggy.com, we are a team of creative
             individuals with a passion for empowering our customers to break
             free from the ordinary and design their own unique products. Our
