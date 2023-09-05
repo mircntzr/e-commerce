@@ -30,8 +30,8 @@ git clone https://github.com/mircntzr/e-commerce
 4. Start the project
     npm start
 
-<hr/>
-## Demo Link
+
+----------------------Demo Link----------------------
 ```<p align="center">
   <a href="http://vintaggy.com/" target="_blank">👉 CHECK OUT THE DEMO 👈</a>
 </p>
